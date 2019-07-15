@@ -1,0 +1,147 @@
+/* 
+  Use .orderItemModal- before the class name
+*/
+
+.orderItemModal-main{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  outline: 0;
+  background: rgba(0,0,0,.7);
+  animation: 175ms flyUp ease forwards;
+  animation: .15s flyDown ease forwards;
+}
+
+.orderItemModal-close{
+  width: 10px;
+  padding : 11.5px 0 0 28px;
+  color: blue;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.orderItemModal-container{
+  height: 71%;
+  width:50%;
+  background-color: #fff;
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+  margin: 1.5% auto;
+  /* padding: 0px 0px 28px 28px; */
+  border-collapse: collapse;
+}
+
+.orderItemModal-addToBag{
+  /* margin-right: 0;
+  margin-left: 0; */
+  position: absolute;
+  bottom: 2.5%;
+  width:100%;
+  padding: 0 0 0 28px;
+  /* box-shadow: 0 1px 2px rgba(0,0,0,0.15); */
+  box-shadow: 0px -5px 9px rgba(0,0,0,0.1);
+  height: 3em;
+}
+
+.orderItemModal-button{
+  background-color: #0F70EB;
+  width: 40%;
+  height: 44px;
+  border-radius: 6px;
+  margin: 0.8em;
+  font-family:'Roboto', sans-serif;
+  font-weight: 700; 
+  color: white;
+  font-size: 0.93em;
+}
+
+.orderItemModal-item {
+  width: 800px;
+  height: 135px;
+  position: relative;
+  /* background-size: cover; */
+  margin: 0
+}
+
+.orderItemModal-content{
+  display: inline-block;
+  vertical-align: top;
+  color: rgba(0,0,0,.87);
+  font-weight: 700;
+  font-family:'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 1.54;
+  position: absolute;
+  left: 23px;
+  bottom: 15px;
+  padding: 10px 15px 0px 15px;
+  z-index: 1;
+  background-color: rgb(255,255,255,0.5);
+  margin: 0.5em 0.1em 0 0.1em;
+  width: 40%;
+  text-align: left;
+  border-radius: 0.2em;
+}
+
+.orderItemModal-quantity{
+  font-family:'Roboto', sans-serif;
+  margin: 0px 30px;
+}
+
+.orderItemModal-special{
+  font-family:'Roboto', sans-serif;
+  margin: 16px 30px
+}
+
+.orderItemModal-instruction{
+  width: 680px;
+  min-height: 150px;
+  margin: 10px 0 0 0;
+  border-color:#CCCCCC;
+  border-radius: 5px;
+  border-width:medium;
+  padding: 20px;
+  font-family:'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.orderItemModal-td {
+  padding: 0;
+}
+
+.orderItemModal-addSubtract{
+  border: 2px solid #0070eb;
+  color: #0070eb;
+  font-weight: 900;
+  padding: 0.3em;
+  border-radius: 1.2em;
+  width: 1.2em;
+  height: 1.2em;
+  display: -webkit-inline-box;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  margin: 0.4em;
+}
+
+.orderItemModal-button:hover, .orderItemModal-addSubtract:hover{
+  cursor: pointer
+}
+
+.orderItemModal-quantityInput{
+      width: 44px;
+      height: 32px;
+      padding: 0;
+      text-align: center;
+      font-size: 14px;
+      line-height: 1.45;
+      border: 2px solid rgba(0,0,0,.2);
+      border-radius: 4px;
+      color: rgba(0,0,0,.87);
+      background: #fff;
+      cursor: default 
+}

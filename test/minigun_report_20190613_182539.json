@@ -1,0 +1,124 @@
+{
+  "intermediate": [
+    {
+      "timestamp": "2019-06-13T18:25:49.965Z",
+      "scenariosCreated": 9998,
+      "scenariosCompleted": 9996,
+      "requestsCompleted": 9996,
+      "rps": {
+        "mean": 999.54,
+        "count": 9998
+      },
+      "latency": {
+        "min": 0.98,
+        "max": 93.45,
+        "median": 2.98,
+        "p95": 8.43,
+        "p99": 28.88
+      },
+      "scenarioDuration": {
+        "min": 1.19,
+        "max": 94.86,
+        "median": 3.32,
+        "p95": 10.35,
+        "p99": 16.61
+      },
+      "errors": {},
+      "codes": {
+        "200": 9996
+      },
+      "matches": 0
+    },
+    {
+      "timestamp": "2019-06-13T18:25:59.965Z",
+      "scenariosCreated": 10000,
+      "scenariosCompleted": 8173,
+      "requestsCompleted": 8173,
+      "rps": {
+        "mean": 1000.06,
+        "count": 10000
+      },
+      "latency": {
+        "min": 0.92,
+        "max": 154.52,
+        "median": 2.4,
+        "p95": 5.21,
+        "p99": 14.27
+      },
+      "scenarioDuration": {
+        "min": 1.19,
+        "max": 154.86,
+        "median": 2.69,
+        "p95": 5.04,
+        "p99": 14.6
+      },
+      "errors": {},
+      "codes": {
+        "200": 8173
+      },
+      "matches": 0
+    },
+    {
+      "timestamp": "2019-06-13T18:26:09.965Z",
+      "scenariosCreated": 2,
+      "scenariosCompleted": 3,
+      "requestsCompleted": 3,
+      "rps": {
+        "mean": 0.2,
+        "count": 2
+      },
+      "latency": {
+        "min": 5.72,
+        "max": 6.68,
+        "median": 6.49,
+        "p95": 6.68,
+        "p99": 6.68
+      },
+      "scenarioDuration": {
+        "min": 6,
+        "max": 7.09,
+        "median": 6.79,
+        "p95": 7.09,
+        "p99": 7.09
+      },
+      "errors": {
+        "ETIMEDOUT": 1826
+      },
+      "codes": {
+        "200": 3
+      },
+      "matches": 0
+    }
+  ],
+  "aggregate": {
+    "timestamp": "2019-06-13T18:26:10.002Z",
+    "scenariosCreated": 20000,
+    "scenariosCompleted": 18172,
+    "requestsCompleted": 18172,
+    "rps": {
+      "mean": 665.8,
+      "count": 20000
+    },
+    "latency": {
+      "min": 0.92,
+      "max": 154.52,
+      "median": 2.63,
+      "p95": 7.7,
+      "p99": 15.08
+    },
+    "scenarioDuration": {
+      "min": 1.19,
+      "max": 154.86,
+      "median": 2.87,
+      "p95": 9.38,
+      "p99": 15.25
+    },
+    "errors": {
+      "ETIMEDOUT": 1828
+    },
+    "codes": {
+      "200": 18172
+    },
+    "matches": 0
+  }
+}

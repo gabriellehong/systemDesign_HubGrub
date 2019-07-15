@@ -1,0 +1,137 @@
+/* 
+  Use .reviewListItem- before the class name
+*/
+
+.reviewListItem-body {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.reviewListItem-header {
+  flex-direction: row;
+  /* display: flex; */
+}
+
+.reviewListItem-avatar {
+  border-radius: 50%;
+  color: #fff;
+  background: #40c2de;
+  width: 40px;
+  height: 40px;
+  border-color: #fff;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  font-weight:bold;
+  line-height: 1.45;
+  box-sizing: inherit;
+}
+
+.reviewListItem-avatarContainer {
+  margin-right: 12px;
+  margin-bottom: 8px;
+  float: left;
+}
+
+.reviewListItem-userInfo {
+  display: inline-block;
+  position: relative;
+  min-height: 1px;
+  width:90%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  flex-shrink: 1;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.reviewListItem-nameAndDate {
+  
+}
+
+.reviewListItem-firstName {
+  font-weight: bold;
+  display: inline-block;
+  font-size: 15.4px;
+  line-height: 1.595;
+}
+
+.reviewListItem-date {
+  color: rgba(0,0,0,.55);
+  font-size: 12px;
+  line-height: 1.45;
+  float: right;
+  display: inline-block;
+}
+
+.reviewListItem-reviewImage{
+  display: inline-block;
+}
+
+.reviewListItem-reviewStatus {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 12px;
+}
+
+.reviewListItem-comments {
+  display: inline-block;
+  font-weight: lighter;
+}
+
+.reviewListItem-nameOrdered {
+  margin-top: 5px;
+}
+
+.reviewListItem-orderList {
+  display:block;
+  color: rgba(0,0,0,.55);
+}
+
+
+/************** Images **************/
+
+.reviewListItem-trophy {
+  width: 22px;
+  height: 22px;
+  margin-top: 5px;
+}
+.reviewListItem-blueStar {
+  width: 21px;
+  height: 18px;
+  margin-top: 5px;
+  display: inline-block;
+}
+.reviewListItem-oneStar {
+  width: 120px;
+  height: 28px;
+  margin-top: 5px;
+  display:block;
+}
+.reviewListItem-twoStar {
+  width: 120px;
+  height: 30px;
+  margin-top: 5px;
+  display:block;
+}
+.reviewListItem-threeStar {
+  width: 120px;
+  height: 28px;
+  margin-top: 5px;
+  display:block;
+}
+.reviewListItem-fourStar {
+  width: 120px;
+  height: 28px;
+  margin-top: 5px;
+  display:block;
+}
+.reviewListItem-fiveStar {
+  width: 120px;
+  height: 30px;
+  margin-top: 5px;
+  display:block;
+}

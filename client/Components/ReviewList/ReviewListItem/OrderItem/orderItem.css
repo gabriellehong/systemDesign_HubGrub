@@ -1,0 +1,119 @@
+/* 
+  Use .orderItem- before the class name
+*/
+
+.orderItem-order {
+  max-width: 245px;
+  display: inline-flex;
+  height: 30px;
+  color: rgba(0,0,0,.87);
+  background: rgba(0,0,0,.05);
+  padding: 8px 12px 0px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 7px;
+  margin-top: 3px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.orderItem-order:hover {
+  background: rgba(0,0,0,.1);
+}
+
+.orderItem-tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.orderItem-tooltiptext {
+  /* visibility: hidden;
+  width: 120px;
+  color: black;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px; */
+
+  
+  background: #fff;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 3px;
+  box-shadow: 0 3px 9px rgba(0,0,0,.5);
+  visibility: hidden;
+  /* opacity: 0;
+  transform: translateY(-10px);
+  transition: .25s ease-out;
+  transition-property: opacity,transform,visibility; */
+
+  position: absolute;
+  z-index: 1;
+
+  box-sizing: inherit;
+}
+
+.orderItem-tooltip .orderItem-tooltiptext {
+  width: 300px;
+  top: 100%;
+  left: 50%; 
+  margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+
+.orderItem-tooltip:hover .orderItem-tooltiptext {
+  visibility: visible;
+}
+
+
+.orderItem-add {
+  border-radius: 0;
+  color: #fff;
+  background: #0070eb;
+  border-color: #0070eb;
+  padding: 8px 16px 7px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  border: 2px solid transparent;
+  transition: background .2s ease,border-color .2s ease,color .2s ease;
+  text-size-adjust: 100%;
+  display: block;
+  width: 100%;
+  font-size: 15.4px;
+  line-height: 1.595;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  /* box-sizing: inherit; */
+  align-items: flex-start;
+  cursor: pointer;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  margin: 0em;
+  font: 400 11px system-ui;
+}
+
+.orderItem-name {
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-size: 15.4px;
+  line-height: 1.595;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  display: inline-block;
+  margin-block-start: 2.33em;
+  margin-block-end: 2.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  cursor: default;
+  width: 80%;
+  height: 70%;
+  text-align: left;
+}
+
+.orderItem-price {
+  text-align: right;
+  display: inline-block;
+  cursor: default;
+}

@@ -1,0 +1,114 @@
+/* 
+  Use .footer- before the class name
+*/
+
+.footer-body {
+  background-color: #3231A9;
+  color: white;
+  width: 75%;
+  height: 400px;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  display: block;
+  padding-left: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+}
+
+.footer-topHalf {
+  background-color: #3231A9;
+  display: block;
+  height: 200px;
+  border-bottom: 1px solid hsla(0,0%,100%,.4);
+  padding: 32px;
+}
+
+.footer-collapsibleSection {
+  position: relative;
+  display: block;
+}
+
+.footer-collapsibletitleText {
+  display: inline-block;
+  width: 100%;
+  box-sizing: inherit;
+  font-size: 17.7px;
+  line-height: 1.51741;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  position: relative;
+  padding-left: 40px;
+}
+
+.footer-li {
+  list-style-type: none;
+}
+
+.footer-ul {
+  margin: 5px 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.footer-a {
+  color: white;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 1.45;
+  font-weight: 100;
+}
+
+.footer-a:hover {
+  color: #cacaca;
+  text-decoration: none;
+}
+
+/* Columns */
+.col-1-4 {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-1-4 {
+  padding-left: 0px;
+  padding-right: 0px;
+  float:left;
+}
+.container{
+  margin: 0 auto;
+  width: 960px;
+}
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* Bottom half */
+
+.footer-bottomHalf {
+  display: flex;
+  flex-wrap: wrap;
+  height: 80px;
+}
+
+.footer-copyright {
+  padding-right: 300px;
+  padding-left: 50px;
+  padding-top: 40px;
+}
+.footer-terms {
+  padding-left: 50px;
+  padding-top: 40px;
+}
+.footer-privacy {
+  padding-left: 50px;
+  padding-top: 40px;
+}

@@ -1,0 +1,127 @@
+/* 
+  Use .reviewHeader- before the class name
+*/
+
+.reviewHeader-main {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 400;
+  width: 75%;
+  padding: 32px;
+  padding-left: 104px;
+  background-color: #FBFBFC;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  box-sizing: border-box;
+}
+
+.reviewHeader-title {
+  margin-top: 0;
+  font-size: 23.3px;
+  line-height: 1.37337;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.reviewHeader-numOfRatings {
+  color: rgba(0,0,0,.55);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.reviewHeader-stats {
+  display:block;
+  width: 400px;
+  height: 106px;
+}
+
+.reviewHeader-statsTitle {
+  margin-top: 18px;
+}
+.reviewHeader-ul {
+  padding: 0;
+}
+
+.reviewHeader-li {
+  flex: 0 0 33.33333%;
+  max-width: 70px;
+  position: relative;
+  min-height: 1px;
+  padding-left: 0px;
+  padding-right: 12px;
+  box-sizing: inherit;
+  display: inline-block;
+  text-align: -webkit-match-parent;
+  float: left;
+}
+
+.reviewHeader-caption {
+  white-space: normal;
+  color: rgba(0,0,0,.55);
+  font-size: 12px;
+}
+
+.reviewHeader-ratings {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 4px;
+  font-size: 17.7px;
+  line-height: 1.51741;
+  font-weight: 900;
+  max-width: 50px;
+}
+
+/**********star images******/
+
+.reviewHeader-oneStar {
+  width: 120px;
+  height: 28px;
+  margin-top: 5px;
+  display:block;
+}
+.reviewHeader-twoStar {
+  width: 120px;
+  height: 30px;
+  margin-top: 5px;
+  display:block;
+}
+.reviewHeader-twohalfStar {
+  width: 120px;
+  height: 27px;
+  margin-top: 5px;
+  display:block;
+}
+.reviewHeader-threeStar {
+  width: 120px;
+  height: 28px;
+  margin-top: 5px;
+  display:block;
+}
+.reviewHeader-threehalfStar {
+  width: 120px;
+  height: 23px;
+  margin-top: 5px;
+  display:block;
+}
+.reviewHeader-fourStar {
+  width: 120px;
+  height: 28px;
+  margin-top: 5px;
+  display:block;
+}
+.reviewHeader-fourhalfStar {
+  width: 120px;
+  height: 26px;
+  margin-top: 5px;
+  display:block;
+}
+.reviewHeader-fiveStar {
+  width: 120px;
+  height: 30px;
+  margin-top: 5px;
+  display:block;
+}

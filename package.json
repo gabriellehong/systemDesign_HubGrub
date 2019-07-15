@@ -1,0 +1,69 @@
+{
+  "name": "grubhub-reviews_footer",
+  "version": "",
+  "description": "",
+  "author": "",
+  "license": "",
+  "scripts": {
+    "build": "webpack -p",
+    "start": "node server/index.js",
+    "dev:public": "webpack -w -d",
+    "seed": "node ./database/seed.js",
+    "test": "jest",
+    "test:w": "jest --watchAll",
+    "test:c": "jest --coverage",
+    "analyze-build": "webpack --profile --json > webpack-stats.json"
+  },
+  "engines": {
+    "node": ">=6.13.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-static-gzip": "^1.1.3",
+    "moment": "^2.24.0",
+    "mongodb": "^3.2.7",
+    "pg": "^7.11.0",
+    "pg-hstore": "^2.3.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "brotli-webpack-plugin": "^1.1.0",
+    "compression-webpack-plugin": "^2.0.0",
+    "css-loader": "^2.1.1",
+    "env-cmd": "^9.0.2",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.13.1",
+    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
+    "faker": "^4.1.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.8.0",
+    "live-server": "^1.2.1",
+    "nodemon": "^1.19.1",
+    "react-test-renderer": "^16.8.6",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "<rootDir>client/setupTests.js"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less)$": "identity-obj-proxy"
+    }
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  }
+}

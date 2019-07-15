@@ -1,0 +1,437 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing App component should grab a snapshot of the component 1`] = `
+<div>
+  <div
+    className="reviewHeader-main"
+  >
+    <h3
+      className="reviewHeader-title"
+    >
+      Reviews for 
+    </h3>
+    <div />
+    <div
+      className="reviewHeader-numOfRatings"
+    >
+       ratings
+    </div>
+    <div
+      className="reviewHeader-stats"
+    >
+      <div
+        className="reviewHeader-statsTitle"
+      >
+        Here's what people are saying:
+      </div>
+      <ul
+        className="reviewHeader-ul"
+      >
+        <li
+          className="reviewHeader-li"
+        >
+          <span
+            className="reviewHeader-ratings"
+          >
+            %
+          </span>
+          <span
+            className="reviewHeader-caption"
+          >
+            Food was good
+          </span>
+        </li>
+        <li
+          className="reviewHeader-li"
+        >
+          <span
+            className="reviewHeader-ratings"
+          >
+            %
+          </span>
+          <span
+            className="reviewHeader-caption"
+          >
+            Delivery was on time
+          </span>
+        </li>
+        <li
+          className="reviewHeader-li"
+        >
+          <span
+            className="reviewHeader-ratings"
+          >
+            %
+          </span>
+          <span
+            className="reviewHeader-caption"
+          >
+            Order was accurate
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div>
+    <div
+      className="reviewList-main"
+    >
+      <div
+        className="reviewList-sort"
+      >
+        <div
+          className="reviewList-sortText"
+        >
+          Sort by:
+        </div>
+        <div
+          className="reviewList-select"
+        >
+          <select
+            className="reviewList-selectBox"
+            onChange={[Function]}
+          >
+            <option
+              value="Most recent"
+            >
+              Most recent
+            </option>
+            <option
+              value="Highest rated"
+            >
+              Highest rated
+            </option>
+          </select>
+          <img
+            alt="dropdownArrow"
+            className="reviewList-dropdownArrow"
+            src="https://s3-us-west-1.amazonaws.com/fechackreactor/grubhubDropdownArrow.png"
+          />
+        </div>
+      </div>
+      <br />
+      <div
+        className="reviewList-buttonContainer"
+      >
+        <button
+          className="reviewList-viewAllButton"
+          id="reviewList-viewAllButton"
+          onClick={[Function]}
+        >
+          View all reviews
+        </button>
+      </div>
+      <div
+        className="reviewList-bottom"
+      >
+        <a
+          className="reviewList-a"
+          href=""
+        >
+          Grubhub
+        </a>
+         /
+        <a
+          className="reviewList-a"
+          href=""
+        >
+          Los Angeles
+        </a>
+         /
+        <a
+          className="reviewList-a"
+          href=""
+        >
+          Santa Monica
+        </a>
+         /
+        <span
+          className="reviewList-restaurantName"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="footer-body"
+  >
+    <div
+      className="footer-topHalf"
+    >
+      <div
+        className="footer-collapsibleSection col-1-4"
+      >
+        <span
+          className="footer-collapsibletitleText"
+        >
+          Get to know us
+        </span>
+        <div
+          className="footer-collapsibleContent"
+        >
+          <ul>
+            <li
+              className="footer-li"
+            >
+              <a
+                className="footer-a"
+                href=""
+              >
+                About Grubhub
+              </a>
+            </li>
+            <li
+              className="footer-li"
+            >
+              <a
+                className="footer-a"
+                href=""
+              >
+                Our apps
+              </a>
+            </li>
+            <li
+              className="footer-li"
+            >
+              <a
+                className="footer-a"
+                href=""
+              >
+                Our blog
+              </a>
+            </li>
+            <li
+              className="footer-li"
+            >
+              <a
+                className="footer-a"
+                href=""
+              >
+                Careers
+              </a>
+            </li>
+            <li
+              className="footer-li"
+            >
+              <a
+                className="footer-a"
+                href=""
+              >
+                Investor relations
+              </a>
+            </li>
+            <li
+              className="footer-li"
+            >
+              <a
+                className="footer-a"
+                href=""
+              >
+                News
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        className="footer-collapsibleSection col-1-4"
+      >
+        <span
+          className="footer-collapsibletitleText"
+        >
+          Useful links
+        </span>
+        <div
+          className="footer-collapsibleContent"
+        >
+          <ul
+            className="footer-ul"
+          >
+            <li
+              className="footer-li"
+            >
+              <a
+                className="footer-a"
+                href=""
+              >
+                Gift cards
+              </a>
+            </li>
+            <li
+              className="footer-li"
+            >
+              <a
+                className="footer-a"
+                href=""
+              >
+                Coupons
+              </a>
+            </li>
+            <li
+              className="footer-li"
+            >
+              <a
+                className="footer-a"
+                href=""
+              >
+                FAQ
+              </a>
+            </li>
+            <li
+              className="footer-li"
+            >
+              <a
+                className="footer-a"
+                href=""
+              >
+                Help
+              </a>
+            </li>
+            <li
+              className="footer-li"
+            >
+              <a
+                className="footer-a"
+                href=""
+              >
+                Grubhub for Alexa
+              </a>
+            </li>
+            <li
+              className="footer-li"
+            >
+              <a
+                className="footer-a"
+                href=""
+              >
+                Student discounts
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        className="footer-collapsibleSection col-1-4"
+      >
+        <span
+          className="footer-collapsibletitleText"
+        >
+          Connect with us
+        </span>
+        <div
+          className="footer-collapsibleContent"
+        >
+          <ul>
+            <li
+              className="footer-li"
+            >
+              <a
+                className="footer-a"
+                href=""
+              >
+                Facebook
+              </a>
+            </li>
+            <li
+              className="footer-li"
+            >
+              <a
+                className="footer-a"
+                href=""
+              >
+                Twitter
+              </a>
+            </li>
+            <li
+              className="footer-li"
+            >
+              <a
+                className="footer-a"
+                href=""
+              >
+                Instagram
+              </a>
+            </li>
+            <li
+              className="footer-li"
+            >
+              <a
+                className="footer-a"
+                href=""
+              >
+                YouTube
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        className="footer-collapsibleSection col-1-4"
+      >
+        <span
+          className="footer-collapsibletitleText"
+        >
+          Partner with us
+        </span>
+        <div
+          className="footer-collapsibleContent"
+        >
+          <ul>
+            <li
+              className="footer-li"
+            >
+              <a
+                className="footer-a"
+                href=""
+              >
+                For restaurants
+              </a>
+            </li>
+            <li
+              className="footer-li"
+            >
+              <a
+                className="footer-a"
+                href=""
+              >
+                For drivers
+              </a>
+            </li>
+            <li
+              className="footer-li"
+            >
+              <a
+                className="footer-a"
+                href=""
+              >
+                For corporate accounts
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div
+      className="footer-bottomHalf"
+    >
+      <div
+        className="footer-copyright"
+      >
+        © 2019 Grubhub All rights reserved.
+      </div>
+      <a
+        className="footer-a footer-terms"
+        href=""
+      >
+        Terms of Use
+      </a>
+      <br />
+      <a
+        className="footer-a footer-privacy"
+        href=""
+      >
+        Privacy Policy
+      </a>
+    </div>
+  </div>
+</div>
+`;
